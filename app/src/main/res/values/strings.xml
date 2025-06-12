@@ -1,0 +1,74 @@
+<resources>
+    <!-- Nombre de la aplicación, se muestra debajo del ícono de la app y en la barra de título por defecto -->
+    <string name="app_name">Ejemplo1ComposerIDGS901</string>
+
+    <!-- Títulos de Activities -->
+    <string name="title_activity_main">Pantalla Principal</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_detail">Detalles</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings para la UI (botones, etiquetas, placeholders, etc.) -->
+    <string name="hello_world">¡Hola Mundo!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_yes">Sí</string>
+    <string name="action_no">No</string>
+
+    <string name="label_username">Nombre de usuario</string>
+    <string name="label_password">Contraseña</string>
+    <string name="hint_username">Ingresa tu nombre de usuario</string>
+    <string name="hint_password">Ingresa tu contraseña</string>
+    <string name="button_login">Iniciar Sesión</string>
+    <string name="button_register">Registrarse</string>
+    <string name="button_submit">Enviar</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_back">Atrás</string>
+
+    <!-- Mensajes de error o validación -->
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Correo electrónico no válido</string>
+    <string name="error_password_too_short">La contraseña es demasiado corta</string>
+    <string name="error_passwords_do_not_match">Las contraseñas no coinciden</string>
+    <string name="error_no_internet">No hay conexión a internet</string>
+    <string name="error_unknown">Ocurrió un error desconocido</string>
+
+    <!-- Mensajes de confirmación o informativos -->
+    <string name="message_item_saved">Elemento guardado correctamente</string>
+    <string name="message_are_you_sure_delete">¿Estás seguro de que quieres eliminar esto?</string>
+    <string name="message_loading">Cargando...</string>
+
+    <!-- Strings para menús -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Presentación</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+
+    <!-- Nombres de placeholders para contenido dinámico (usado con formato) -->
+    <string name="welcome_messages">¡Hola, %1$s! Tienes %2$d mensajes nuevos.</string>
+    <!-- Ejemplo de uso en Kotlin: getString(R.string.welcome_messages, "Usuario", 5) -->
+
+    <!-- Content Descriptions para accesibilidad (imágenes sin texto visible, etc.) -->
+    <string name="cd_profile_image">Imagen de perfil del usuario</string>
+    <string name="cd_add_item_button">Botón para añadir un nuevo elemento</string>
+
+    <!-- Otros strings específicos de tu aplicación -->
+    <!-- Por ejemplo, si tienes una app de notas: -->
+    <string name="label_note_title">Título de la nota</string>
+    <string name="hint_note_content">Escribe tu nota aquí...</string>
+
+    <!-- Puedes añadir aquí todos los strings que tu aplicación necesite -->
+    <!-- Recuerda que el string que te estaba dando problemas es 'app_name' -->
+    <!-- Si tenías otros strings en tu AndroidManifest.xml, asegúrate de que también estén definidos aquí -->
+    <string name="Ejemplo1ComposerIDGS901">Ejemplo1ComposerIDGS901</string>
+    <!-- La línea de arriba es la que tenías en tu AndroidManifest.xml en la posición del cursor -->
+    <!-- Es mejor práctica usar 'app_name' para el label de la aplicación -->
+    <!-- y referenciarlo consistentemente, pero si necesitas este string específico, aquí está. -->
+
+</resources>
